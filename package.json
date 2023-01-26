@@ -1,6 +1,5 @@
 {
   "private": true,
-  "sideEffects": false,
   "scripts": {
     "build": "remix build",
     "dev": "remix dev",
@@ -27,5 +26,8 @@
   },
   "engines": {
     "node": ">=14"
-  }
+  },
+  "sideEffects": [
+    "*.css.ts"
+  ]
 }
